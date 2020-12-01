@@ -20,7 +20,6 @@ djangorestframework-simplejwt==4.4.0
 docutils==0.15.2
 gunicorn==20.0.4
 idna==2.10
-jimmy-util @ git+https://github.com/seungjinhan/python_jimmy_util.git@0f7c7c407bbb7214469406d82dfc83a9a308ac8a
 jmespath==0.10.0
 lazy-object-proxy==1.4.3
 oauthlib==3.1.0
