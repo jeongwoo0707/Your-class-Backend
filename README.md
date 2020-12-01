@@ -8,7 +8,7 @@
 ## 왜 시작했을까?
 
 ### 배경
-COVID-19 사태로 비대면 수업이 확장됨에 따라 비대면 학습 도구애 대한
+COVID-19 사태로 비대면 수업이 확장됨에 따라 비대면 학습 도구에 대한
 수요가 확장되고 있다. 하지만, 대학교 이외의 중학교 또는 고등학교에서 적절한
 학습 프로그램을 확보하지 못해 수업의 질이 낮아지고 있다. 
 
@@ -23,7 +23,7 @@ COVID-19 사태로 비대면 수업이 확장됨에 따라 비대면 학습 도�
 이후 StarUML 도구를 사용해 `유스케이스, 클래스 다이어그램, 시퀀스 다이어그램`의 작성을
 진행하였고, 10월 중순 이후 구현작업에 들어갔다.
 
-11월 중순 `테스트 케이스` 작성을 완료하였지만, 실제 테스트 진행을 위한 테스틑 프로그램 작성까지
+11월 중순 `테스트 케이스` 작성을 완료하였지만, 실제 테스트 진행을 위한 테스트 프로그램 작성까지
 진행하지는 못하였다. 하지만, 작성한 테스트 케이스를 기반으로 소프트웨어 최종 발표가 진행될 예정이다.
 
 ## 함께 한 사람들
@@ -39,59 +39,59 @@ COVID-19 사태로 비대면 수업이 확장됨에 따라 비대면 학습 도�
 ## 웹사이트 방문해보기
 [Your Class](http://ec2-13-124-168-48.ap-northeast-2.compute.amazonaws.com/#/)
 
-# Your-class-Backed
+## Your-class-Backed
 
-# Include (Apps)
-## accounts
+## Include (Apps)
+### accounts
 ```
 Student & Instructor models
 Views for CRUD user models & profile
 ```
 
-## subject
+### subject
 ```
 Class & Enroll models
 Views for CRUD Classes & Enroll your student
 ```
 
-## assignment
+### assignment
 ```
 Assignment & Submit models
 Views for CRUD Assignments & Submissions
 Upload/Download your Assignments files & Submission Files
 ```
 
-## post
+### post
 ```
 Q&A & Notice models
 Views for CRUD Q&As & Notices
 ```
-# Configuration
-## Project setup
+## Configuration
+### Project setup
 ```
 pip3 install django
 pip3 install -r requirements.txt
 ```
 
-## If psycopg2 error occurred
+### If psycopg2 error occurred
 ```
 pip3 install psycopg2_binary
 ```
 
-## Add your own SECRET_KEY, DATABASE, HOST, etcs at settings.py
+### Add your own SECRET_KEY, DATABASE, HOST, etcs at settings.py
 
-## Migrate your settings
+### Migrate your settings
 ```
 python3 manage.py makemigrations
 python3 manage.py migrate
 ```
 
-## Compiles for development
+### Compiles for development
 ```
 python3 manage.py runserver
 ```
 
-## Edit settings.py for Deploy Productions
+### Edit settings.py for Deploy Productions
 ```
 Edit DEBUG = True to DEBUG=False at settings.py
 ```
