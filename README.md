@@ -54,7 +54,7 @@ python3 manage.py migrate
 python3 manage.py runserver
 ```
 
-## Complies for Deploy Productions
+## Edit settings.py for Deploy Productions
 ```
 Edit DEBUG = True to DEBUG=False at settings.py
 ```
