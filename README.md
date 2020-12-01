@@ -42,7 +42,7 @@ COVID-19 사태로 비대면 수업이 확장됨에 따라 비대면 학습 도�
 ## 프론트 엔드 (Vue.js) 문서 보기
 [프론트엔드 레포지토리](https://github.com/hAAArdwork/Your-Class)
 
-## Your-class-Backed
+## Your-class-Backend
 
 ## Include (Apps)
 ### accounts
