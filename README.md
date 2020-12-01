@@ -7,26 +7,26 @@ Your class is a Learning Management System for Your Students!
 
 # Include (Apps)
 ```
-accounts
+[accounts]
 Student & Instructor models
 Views for CRUD user models & profile
 ```
 
 ```
-subject
+[subject]
 Class & Enroll models
 Views for CRUD Classes & Enroll your student
 ```
 
 ```
-assignment
+[assignment]
 Assignment & Submit models
 Views for CRUD Assignments & Submissions
 Upload/Download your Assignments files & Submission Files
 ```
 
 ```
-post
+[post]
 Q&A & Notice models
 Views for CRUD Q&As & Notices
 ```
