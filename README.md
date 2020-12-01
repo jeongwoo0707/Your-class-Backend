@@ -2,7 +2,7 @@
 
 ## 실습 관리 웹 어플리케이션 - Your Class
 
-**![MainPage](.mainPage.png)**
+**![MainPage](mainPage.png)**
 
 
 ## 왜 시작했을까?
